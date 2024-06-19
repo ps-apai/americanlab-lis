@@ -1,3 +1,97 @@
-body{
-  background-color:red;
+.portal-bar {
+    height: 64px;
+    background: #fff !important;
+    color: white;
+    padding: 6px;
+    display: flex;
+}
+
+
+
+/* MOBILE CSS */
+
+@media only screen and (max-width: 600px) {
+  
+  /* body */
+    #aftMenuDiv{
+    top: 64px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    }
+    
+    #aftMenuDiv .row{
+        display: block;
+        width: 100% !important;
+    }
+  
+  /* sidebar menu */
+  #buttBar{
+      height: auto !important;
+  }
+  .buttBar{
+    min-width: 100% !important;
+    display: row !important;
+    display: flex !important;
+    flex-direction: row;
+    overflow: auto;
+    height:80px !important;
+  }
+  /* sidebar buttons */
+  .portalSbutt{
+      min-width: 120px !important;
+      margin: 5px !important;
+      padding: 6px !important;
+      height: auto !important;
+      border-radius: 12px !important;
+      background-color: #aa4852 !important;
+      
+      & br{
+          display: inline !important;
+      }
+  }
+  
+  #mainContainer{
+      width: 100% !important;
+  }
+  /* container holding the views */
+  .tab-pane{
+      width: 92% !important;
+  }
+  .modal-content{
+      width: 98% !important;
+  }
+  .gridFrame6{
+      width: 98% !important;
+  }
+  
+  /* Inside views */
+  .table tr td{
+      display: flex !important;
+      flex-direction: column;
+  }
+  
+  /* eliminate br tag in between label and input field */
+  .table tr td br{
+      display: none;
+  }
+  
+  /* input fields */
+  .input-fixer{
+      width: 100% !important;
+      margin-bottom: 10px;
+  }
+  
+  /* labels inside view forms. */
+  .label-fixer{
+          display: inline-block !important;
+          margin-bottom: 0px !important;
+  }
+  
+  /* remove calendar icon from mobile view */
+  .fa-calendar{
+      display: none !important;
+  }
+  
+  
+  
 }
