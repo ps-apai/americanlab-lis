@@ -6,6 +6,10 @@
     display: flex;
 }
 
+#aftMenuDiv{
+    top: 64px !important;
+}
+
 
 
 /* MOBILE CSS */
