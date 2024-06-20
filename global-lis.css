@@ -86,10 +86,11 @@
       margin-bottom: 10px;
   }
   
-  /* labels inside view forms. */
+  /* labels inside view forms. 
   .label-fixer{
           display: inline-block !important;
           margin-bottom: 0px !important;
+          */
   }
   
   /* remove calendar icon from mobile view */
