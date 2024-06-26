@@ -61,6 +61,7 @@ body{
   
   #mainContainer{
       width: 100% !important;
+      overflow: auto;
   }
   /* container holding the views */
   .tab-pane{
