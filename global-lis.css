@@ -70,6 +70,7 @@ body{
   .modal-content{
       width: 98% !important;
   }
+
   .gridFrame6{
       width: 98% !important;
   }
@@ -101,7 +102,11 @@ body{
   .fa-calendar{
       display: none !important;
   }
-  
+
+
+
+    /*  addressing double window on mobile */
+    #formContainer-2{display:none;}
   
   
 }
