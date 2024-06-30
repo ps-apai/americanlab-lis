@@ -102,11 +102,6 @@ body{
   .fa-calendar{
       display: none !important;
   }
-
-
-
-    /*  addressing double window on mobile */
-    tab-content{height:95vh;overflow:hidden;}
   
   
 }
