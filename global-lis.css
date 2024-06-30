@@ -106,7 +106,7 @@ body{
 
 
     /*  addressing double window on mobile */
-    #formContainer-2{display:none;}
+    tab-content{height:95vh;overflow:hidden;}
   
   
 }
